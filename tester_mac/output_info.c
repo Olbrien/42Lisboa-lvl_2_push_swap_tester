@@ -43,7 +43,7 @@ int main()
 
 	printf("Minimum instructions: %i\n", minimum);
 	printf("Maximum instructions: %i\n", maximum);
-	printf("Median of instructions: %i\n", (int)median);
+	printf("Average of instructions: %i\n", (int)median);
 
 
 }
