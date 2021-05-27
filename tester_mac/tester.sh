@@ -29,7 +29,7 @@ echo -e "${LIGHT_BLUE}Sorting...\n\n${NC}"
 
 while [ $i -le 100 ]
 do
-	ARG=`ruby -e "puts (0..$INDEX).to_a.shuffle.join(' ')"`; echo $ARG >> output.txt ; ../push_swap $ARG | ./checkers/checker_linux $ARG >> output.txt; ../push_swap $ARG | wc -l >> output.txt
+	ARG=`ruby -e "puts (0..$INDEX).to_a.shuffle.join(' ')"`; echo $ARG >> output.txt ; ../push_swap $ARG | ./checkers/checker_Mac $ARG >> output.txt; ../push_swap $ARG | wc -l >> output.txt
   ((i++))
 done
 
