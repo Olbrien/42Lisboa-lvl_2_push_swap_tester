@@ -1,6 +1,8 @@
 ![GitHub Logo](/extras/2.png)\
 ![GitHub Logo](/extras/1.png)
 
+The folder you're going to use (tester_linux or tester_mac) needs to be in the root of your push_swap.
+
 This is a practical test I made that tests everything you need for your push_swap project.\
 It's good for testing your project, and to evaluate other people on the campus.
 
