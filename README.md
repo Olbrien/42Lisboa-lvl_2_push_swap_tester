@@ -3,6 +3,9 @@
 
 The folder you're going to use (tester_linux or tester_mac) needs to be in the root of your push_swap.
 
+You also need to give permission to every folder on the macs.\
+`chmod 777 *`
+
 This is a practical test I made that tests everything you need for your push_swap project.\
 It's good for testing your project, and to evaluate other people on the campus.
 
