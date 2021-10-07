@@ -37,3 +37,17 @@ This will do 100 tests of 5 arguments, like so:
 (...)
 </pre>
 
+This tester uses Ruby, so make sure it is installed!
+
+To install ruby on linux:
+<pre>
+sudo apt-get install ruby-full
+</pre>
+
+To install ruby on mac os:
+<pre>
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install ruby
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+</pre>
